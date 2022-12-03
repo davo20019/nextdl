@@ -60,7 +60,7 @@ export default function Home() {
           >
             <h2>Go to my website &rarr;</h2>
             <p>
-              This is my website.
+              This is my personal website. It was built using WordPress.
             </p>
           </a>
           <a
