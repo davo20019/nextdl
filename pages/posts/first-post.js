@@ -17,7 +17,7 @@ export default function FirstPost() {
                     }
                 />
             </Head>
-            <h1>Hi Aracely!!!</h1>
+            <h1>Hello World!!!</h1>
             <h2>
                 <Link href="/">Back to home</Link>
             </h2>
