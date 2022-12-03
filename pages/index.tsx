@@ -57,7 +57,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>This is me!</h2>
             <p>
               This is my website.
             </p>
