@@ -57,7 +57,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className={styles.card}
           >
-            <h2>This is me!</h2>
+            <h2>Go to my website &rarr;</h2>
             <p>
               This is my website.
             </p>
@@ -68,7 +68,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className={styles.card}
           >
-            <h2>Imerkar</h2>
+            <h2>Imerkar.com &rarr;</h2>
             <p>
               This is a Drupal 9 site, with a react app, where we can track the crypto prices.
             </p>
