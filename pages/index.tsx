@@ -51,42 +51,14 @@ export default function Home({ allPostsData }) {
           </Layout>
 
           <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
-              <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
 
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a
-              href="https://github.com/vercel/next.js/tree/canary/examples"
-              className={styles.card}
-            >
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.card}
-            >
-              <h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
             <a
                 href="https://davidloor.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.card}
             >
-              <h2>Go to my website &rarr;</h2>
+              <h2>davidloor.com &rarr;</h2>
               <p>
                 This is my personal website. It was built using WordPress.
               </p>
@@ -102,11 +74,17 @@ export default function Home({ allPostsData }) {
                 This is a Drupal 9 site, with a react app, where we can track the crypto prices.
               </p>
             </a>
-
-            <h2 className="title">
-              Read <Link href="/posts/first-post">my first post for my wife!</Link>
-            </h2>
-
+            <a
+                href="https://learnenglishsounds.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.card}
+            >
+              <h2>learnenglishsounds.com &rarr;</h2>
+              <p>
+                This is a Drupal 9 site, built with the open social distribution. This is a site where I post youtube videos which contain information about the english sounds.
+              </p>
+            </a>
 
           </div>
         </main>
