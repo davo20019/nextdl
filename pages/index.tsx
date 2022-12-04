@@ -19,6 +19,7 @@ export async function getStaticProps() {
 
 // @ts-ignore
 export default function Home({ allPostsData }) {
+  // @ts-ignore
   return (
       <div className={styles.container}>
         <Head>
