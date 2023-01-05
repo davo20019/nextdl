@@ -15,7 +15,7 @@ export default function FirstPost() {
             <Head>
                 <title>First Post</title>
             </Head>
-            <h1>Hello World!!!</h1>
+            <h1>2048 Game</h1>
             <GameBoard board={board} />
         </Layout>
     );
