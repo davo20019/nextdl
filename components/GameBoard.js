@@ -7,9 +7,9 @@ function GameBoard(props) {
     useEffect(() => {
         // generate a random initial board
         const initialBoard = []
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 8; i++) {
             const row = []
-            for (let j = 0; j < 4; j++) {
+            for (let j = 0; j < 8; j++) {
                 row.push(Math.random() < 0.8 ? 0 : 2)
             }
             initialBoard.push(row)
@@ -21,6 +21,7 @@ function GameBoard(props) {
     // function to handle arrow key input
     const handleKeyDown = e => {
         if (e.keyCode === 37) {
+            //
             console.log('Moved to the left.')
             // move tiles to the left
         } else if (e.keyCode === 38) {
