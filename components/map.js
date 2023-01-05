@@ -1,9 +1,6 @@
 import React from "react";
-import Head from 'next/head';
-import Script from 'next/script'
 
-
-export default function MapExample() {
+function MapExample() {
     const mapRef = React.useRef(null);
     React.useEffect(() => {
         let google = window.google;
@@ -82,13 +79,12 @@ export default function MapExample() {
         });
     });
     return (
-        <div>
-            <Head>
-                <Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXZpRZghGEq3KJt_EPB7nnFu3ttLJfrys" />
-            </Head>
+        <>
             <div className="relative w-full rounded h-600-px">
                 <div className="rounded h-full" ref={mapRef} />
             </div>
-        </div>
+        </>
     );
 }
+
+export default MapExample;

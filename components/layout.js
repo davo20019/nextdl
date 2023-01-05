@@ -11,6 +11,7 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
+                <link href='https://fonts.googleapis.com/css2?family=Digital+Clock&display=swap' rel='stylesheet'/>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
@@ -24,7 +25,6 @@ export default function Layout({ children, home }) {
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>
             </Head>
             <header className={styles.header}>
                 {home ? (
