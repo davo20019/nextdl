@@ -14,18 +14,23 @@ function GameBoard(props) {
             }
             initialBoard.push(row)
         }
+        console.log(initialBoard.toString())
         setBoard(initialBoard)
     }, [])
 
     // function to handle arrow key input
     const handleKeyDown = e => {
         if (e.keyCode === 37) {
+            console.log('Moved to the left.')
             // move tiles to the left
         } else if (e.keyCode === 38) {
+            console.log('Moved UP.')
             // move tiles up
         } else if (e.keyCode === 39) {
+            console.log('Moved to the right.')
             // move tiles to the right
         } else if (e.keyCode === 40) {
+            console.log('Moved DOWM.')
             // move tiles down
         }
     }
@@ -38,8 +43,9 @@ function GameBoard(props) {
     }, [])
 
     return (
+
         <div>
-            {board &&
+            {(board != null) &&
                 board.map((row, rowIndex) => (
                     <div key={rowIndex}>
                         {row.map((cell, cellIndex) => (
