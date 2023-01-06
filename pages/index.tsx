@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Date from '../components/date';
+import Posts from "../components/Posts";
 
 import { getSortedPostsData } from '../lib/posts';
 import Script from "next/script";
@@ -51,6 +52,8 @@ export default function Home({ allPostsData }) {
               </ul>
             </section>
           </Layout>
+
+          <Posts posts={allPostsData} />
 
           <div className={styles.grid}>
 

@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Script from 'next/script';
 import Layout from '../../components/layout';
-import GameBoard from "../../components/GameBoard";
 import Game from "../../components/Game";
 
 export default function FirstPost() {
@@ -16,7 +15,6 @@ export default function FirstPost() {
                 <title>First Post</title>
             </Head>
             <h1>2048 Game</h1>
-            <GameBoard board={board} />
 
             <Game />
         </Layout>
