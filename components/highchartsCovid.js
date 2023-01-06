@@ -8,7 +8,10 @@ const data = [
     { date: '2020-03-01', cases: 3000, deaths: 300 },
     { date: '2021-01-01', cases: 4000, deaths: 400 },
     { date: '2021-02-01', cases: 5000, deaths: 500 },
-    { date: '2021-03-01', cases: 6000, deaths: 600 }
+    { date: '2021-03-01', cases: 6000, deaths: 600 },
+    { date: '2022-01-01', cases: 1000, deaths: 900 },
+    { date: '2022-02-01', cases: 1500, deaths: 800 },
+    { date: '2022-03-01', cases: 2500, deaths: 1000 }
 ];
 
 function CovidChart() {
