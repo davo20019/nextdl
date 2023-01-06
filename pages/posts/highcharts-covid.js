@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Layout from '../../components/layout';
 import CovidChart from "../../components/highchartsCovid";
+import CovidPieChart from "../../components/highchartsPie";
 
 export default function FirstPost() {
     const board = [
@@ -15,7 +16,10 @@ export default function FirstPost() {
                 <title>First Post</title>
             </Head>
             <h1>2048 Game</h1>
-            <CovidChart board={board} />
+            <CovidChart />
+            <div>This is a placeholder</div>
+            <CovidPieChart />
+
 
         </Layout>
     );
