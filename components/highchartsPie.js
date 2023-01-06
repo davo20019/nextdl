@@ -65,7 +65,7 @@ function CovidPieChart() {
                 highcharts={Highcharts}
                 options={options}
             />
-            <button onClick={handleAddChart}>Add Chart</button>
+            <button onClick={handleAddChart}>Add more data to the Chart</button>
         </div>
     );
 }
