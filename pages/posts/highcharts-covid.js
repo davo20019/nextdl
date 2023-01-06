@@ -18,7 +18,7 @@ export default function FirstPost() {
             <Head>
                 <title>First Post</title>
             </Head>
-            <h1>2048 Game</h1>
+            <h1>Texas project, here we go!</h1>
             <CovidChart />
             <div>This is a placeholder</div>
             <CovidPieChart />
