@@ -2,8 +2,17 @@ import { useState } from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import exporting from 'highcharts/modules/exporting';
+import HighchartsExporting from 'highcharts/modules/exporting';
+
+// if (typeof Highcharts === 'object') {
+//   HighchartsExporting(Highcharts);
+// }
 
 //exporting(Highcharts);
+
+ if (typeof Highcharts === 'object') {
+     exporting(Highcharts);
+ }
 
 const data = [
     { name: 'Cases', y: 1000 },
