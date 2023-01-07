@@ -25,7 +25,6 @@ export default function FirstPost() {
             <div>This is a placeholder number 3</div>
             <MyChart />
 
-            <AddChartButton />
         </Layout>
     );
 }
