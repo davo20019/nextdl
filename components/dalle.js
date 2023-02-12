@@ -49,7 +49,7 @@ const Index = () => {
             ) : imageUrl ? (
                 <img src={imageUrl} />
             ) : (
-                <p>Enter a description to generate an image</p>
+                <p>Enter a description to generate an image:::::</p>
             )}
         </div>
     )
